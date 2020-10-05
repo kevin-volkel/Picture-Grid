@@ -1,5 +1,106 @@
 .container{
+    border: grey 25px solid; 
     display: grid;
-    grid-template-columns:;
-    grid-template-rows:;
+    grid-template-columns:repeat(5, auto );
+    grid-template-rows: auto;
+    gap: 10px;
+    grid-template-areas:
+    "logo logo logo logo facebook"
+    "logo logo logo logo twitter"
+    "logo logo logo logo masks"
+    "birthday birthday joker ages wigs"
+    "musical supersale supersale candy greatHats"
+    "musical santa classic classic shipping"
+    "props santa trickOrTreat1 trickOrTreat2 witches"
+    "opera orderNow orderNow . address"
 }
+.cell{
+    border: solid black
+}
+
+.cell-A{
+    grid-area: facebook;
+}
+.cell-B{
+    grid-area: twitter;
+    padding: 0px;
+}
+.cell-C{
+    grid-area: masks;
+}
+.cell-D{
+    grid-area: birthday;
+}
+.cell-E{
+    grid-area: joker;
+}
+.cell-F{
+    grid-area: ages;
+}
+.cell-G{
+    grid-area: wigs;
+}
+.cell-H{
+    grid-area: musical;
+}
+.cell-I{
+    grid-area: supersale;
+}
+.cell-J{
+    grid-area: candy;
+}
+.cell-K{
+    grid-area: greatHats;
+}
+.cell-L{
+    grid-area: props;
+}
+.cell-M{
+    grid-area: santa;
+}
+.cell-N{
+    grid-area: classic;
+}
+.cell-O{
+    grid-area: shipping;
+}
+.cell-P{
+    grid-area: trickOrTreat1;
+}
+.cell-Q{
+    grid-area: trickOrTreat2;
+}
+.cell-R{
+    grid-area: witches;
+}
+.cell-S{
+    grid-area: opera;
+}
+.cell-T{
+    grid-area: orderNow;
+}
+.cell-U{
+    grid-area: logo;
+}
+.cell-V{
+    grid-area: address;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
