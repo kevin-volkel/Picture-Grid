@@ -1,5 +1,38 @@
+.navbar{
+    background-color: rgb(134, 100, 100);
+    margin: 0;
+    display:grid;
+    grid-template-rows: 50px;
+    grid-template-columns: repeat(5, 150px);
+    grid-template-areas:
+    ". site account orders contact";
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.item{
+
+}
+.item1{
+    grid-area: site;
+}
+.item2{
+    grid-area: account;
+}
+.item3{
+    grid-area: orders;
+}
+.item4{
+    grid-area: contact;
+}
+
+
+
+body{
+    border: 25px gray solid;
+    margin: 0;
+}
 .container{
-    border: grey 25px solid; 
     display: grid;
     grid-template-columns:repeat(5, auto );
     grid-template-rows: auto;
@@ -9,13 +42,11 @@
     "logo logo logo logo twitter"
     "logo logo logo logo masks"
     "birthday birthday joker ages wigs"
+    "birthday birthday joker ages wigs"
     "musical supersale supersale candy greatHats"
     "musical santa classic classic shipping"
     "props santa trickOrTreat1 trickOrTreat2 witches"
     "opera orderNow orderNow . address"
-}
-.cell{
-    border: solid black
 }
 
 .cell-A{
@@ -84,6 +115,13 @@
 }
 .cell-V{
     grid-area: address;
+    text-align: right;
+    padding: 10px;
+    text-justify: auto;
+    position: relative;
+    bottom:-100px;
+    right:0;
+    color: rgb(153,0,0);
 }
 
 
