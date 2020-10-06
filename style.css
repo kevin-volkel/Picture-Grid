@@ -1,9 +1,10 @@
+@media(min-width: 400px){
 .navbar{
     background-color: rgb(134, 100, 100);
     margin: 0;
     display:grid;
     grid-template-rows: 50px;
-    grid-template-columns: repeat(5, 150px);
+    grid-template-columns: repeat(5, auto);
     grid-template-areas:
     ". site account orders contact";
     align-items: center;
@@ -27,10 +28,12 @@
 
 body{
     border: 25px gray solid;
-    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 .container{
     display: grid;
+    justify-items: stretch;
     grid-template-columns:repeat(5, auto );
     grid-template-rows: auto;
     gap: 10px;
@@ -113,12 +116,17 @@ body{
 .cell-V{
     grid-area: address;
     text-align: right;
-    padding: 10px;
     text-justify: auto;
     position: relative;
-    bottom:-100px;
+    bottom:-20%;
     right:0;
     color: rgb(153,0,0);
+}
+
+.cell{
+    width: 100%;
+    height: auto;
+}
 }
 
 
