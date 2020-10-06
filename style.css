@@ -3,7 +3,7 @@
     background-color: rgb(134, 100, 100);
     margin: 0;
     display:grid;
-    grid-template-rows: 50px;
+    grid-template-rows: auto;
     grid-template-columns: repeat(5, auto);
     grid-template-areas:
     ". site account orders contact";
